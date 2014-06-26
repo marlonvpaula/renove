@@ -58,7 +58,52 @@ body {
 
 .logo {
 	height: 30px !important;
+  margin-right: 30px;
 }
+
+.dropdown {
+  height: 50px;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle {
+  background-color: #023475 !important;
+  background-image: none;
+}
+
+.dropdown-toggle h3 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  background:url(../img/categoria2.png) no-repeat left;
+  padding-left: 20px;
+  margin: 0;
+  color: #999;
+}
+
+.dropdown-toggle h3:hover {
+  background:url(../img/categoria1.1.png) no-repeat left;
+  color: #fff;
+ }
+
+.dropdown-toggle img {
+  color: #fff;
+}
+
+.search-query {
+  margin-top: 12px;
+}
+
+.buttonBuscar {
+  background:url(../img/searchTop.png) no-repeat;
+  padding-right: 14px;
+  padding-left: 14px;
+  border-radius: 15px;
+  height: 30px;
+  position: absolute;
+  right: 0px;
+  top: 12px;
+}
+
 
 
 

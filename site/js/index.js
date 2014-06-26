@@ -20,5 +20,17 @@
 	  // carousel demo
 	  $('#myCarouselSpan6').carousel()
 	})
+
+	$(function(){
+	  // carousel demo
+	  $('#myCarouselSpan7').carousel()
+	})
+
+	$(function(){
+	  // carousel demo
+	  $('#myCarouselSpan8').carousel()
+	})
 }(window.jQuery)
+
+$('.dropdown-toggle').dropdown();
 
